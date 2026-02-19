@@ -1,0 +1,21 @@
+# Compiled binaries and object files
+*.o
+*.out
+*.exe
+*.so
+*.a
+binaries/*
+# But keep directory structure
+!binaries/.gitkeep
+!binaries/README.md
+# Radare2 files
+*.r2
+.r2/
+# Editor files
+*.swp
+*.swo
+*~
+.*.swp
+# Temp files
+*.tmp
+temp/
